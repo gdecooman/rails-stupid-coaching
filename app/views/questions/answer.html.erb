@@ -1,0 +1,14 @@
+<div class="container">
+<!-- display your answer -->
+<blockquote>
+  <p><%= params[:question]%></p>
+  <p><em>-You</em></p>
+<!-- get the answer from the controller -->
+</blockquote>
+<blockquote id="yellow">
+<%=@answer%>
+<p><em>-Your coach</em></p>
+</blockquote>
+<!-- display the link -->
+<%= link_to "Ask a new question", ask_path %>
+</div>

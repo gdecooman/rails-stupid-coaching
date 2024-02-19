@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+
+ blockquote {
+  border-left: 4px solid grey;
+  padding-left: 6px;
+ }
+
+ #yellow {
+  background-color: blanchedalmond;
+ }
